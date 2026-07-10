@@ -1,0 +1,28 @@
+Microsoft Windows [Version 10.0.26100.6899]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\hp>sfc /scannow
+
+Beginning system scan.  This process will take some time.
+
+Beginning verification phase of system scan.
+Verification 100% complete.
+
+Windows Resource Protection did not find any integrity violations.
+
+C:\Users\hp>DISM /Online /Cleanup-Image /RestoreHealth
+
+Deployment Image Servicing and Management tool
+Version: 10.0.26100.5074
+
+Image Version: 10.0.26100.6899
+
+[==========================100.0%==========================]
+Error: 0x800f0915
+
+The repair content could not be found anywhere.
+Check the internet connectivity or use the "Source" option to specify the location of the files that are required to restore the image. For more information on specifying a source location, see https://go.microsoft.com/fwlink/?LinkId=243077.
+
+The DISM log file can be found at C:\WINDOWS\Logs\DISM\dism.log
+
+C:\Users\hp>DISM /Online /Cleanup-Image /RestoreHealth
